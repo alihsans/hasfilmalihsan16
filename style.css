@@ -1,0 +1,179 @@
+body.index {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("images/arkaplan.jpg");
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+body.matrix {
+    margin: 0;
+    background-image: url("images/code-matrix.gif"); 
+    background-attachment: fixed;
+    background-color: black;
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    height: 100vh;
+}
+body.thedarkknight{
+    background-image: url("images/the-dark-knight.jpg"); 
+    background-attachment: fixed;
+    background-color: rgb(16, 16, 60);
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    height: 100vh;
+}
+body.starwars123{
+    background-image: url("images/obivanakin.jpg"); 
+    background-attachment: fixed;
+    background-color: black;
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    height: 100vh;
+}
+body.spiderman2{
+    background-image: url("images/thumb-1920-500571.jpg"); 
+    background-attachment: fixed;
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    height: 100vh;
+}
+header.index {
+    background-color: #a7181882;
+    color: white;
+    border-radius: 20px;
+    text-align: center;
+    padding: 1rem 0;
+
+}
+header.matrix{
+
+    background-color: #000000ca;
+    color: white;
+    text-align:center;
+    padding: 1rem 0;
+}
+header.thedarkknight {
+    background-color: #000000b9;
+    color: white;
+    text-align:center;
+    padding: 1rem 0;
+}
+header.starwars123 {
+    background-color: #00000064;
+    color: rgb(255, 255, 255);
+    text-align:center;
+    padding: 1rem 0;
+}
+header.spiderman2{
+    background-color: #000000c2;
+    color: white;
+    text-align:center;
+    padding: 1rem 0;
+}
+.container {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgba(71, 70, 70, 0.558);
+
+}
+
+.matriksleft{
+    
+    max-width: 800px;
+    font-size: large;
+    color: white;
+    margin-right: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgba(71, 70, 70, 0.558);
+
+}
+.darknight{
+    max-width: 800px;
+    font-size: large;
+    color: white;
+    margin-left: 700px;
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgba(71, 70, 70, 0.558);
+}
+.anakin{
+    max-width: 800px;
+    font-size: large;
+    color: rgb(248, 190, 2);
+    box-shadow: 5px;
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgba(71, 70, 70, 0.558);
+}
+.anakinr{
+    max-width: 800px;
+    font-size: large;
+    color: rgb(248, 190, 2);
+    margin-left: 700px;
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgba(71, 70, 70, 0.558);
+}
+.conspider{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.spideyl{
+    max-width: 400px;
+    font-size: large;
+    color: rgb(175, 6, 6);
+    box-shadow: 5px;
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgba(3, 3, 51, 0.85);
+}
+.spideyr{
+    max-width: 400px;
+    font-size: large;
+    color: rgb(175, 6, 6);
+    box-shadow: 5px;
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(3, 4, 51, 0.85);
+
+}
+
+
+.film {
+    display: flex;
+    margin-bottom: 20px;
+    background: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.movie img {
+    width: 150px;
+    border-radius: 5px;
+}
+.movie-details {
+    margin-left: 20px;
+}
+.movie-details h2 {
+    margin: 0;
+    color: #333;
+}
+.movie-details p {
+    margin: 5px 0;
+    color: #666;
+}
